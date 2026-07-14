@@ -31,7 +31,7 @@ export function ModernProjects() {
       image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
       tags: ['React Native', 'Next.js', 'Supabase', 'Python', 'ML', 'TypeScript'],
       gradient: 'from-pink-500 to-rose-500',
-      stats: { users: '12K+', growth: '+95%' },
+      stats: { status: 'ongoing', growth: '+95%' },
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com',
     },

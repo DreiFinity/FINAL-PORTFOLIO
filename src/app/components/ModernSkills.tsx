@@ -34,8 +34,7 @@ export function ModernSkills() {
       title: 'DevOps',
       gradient: 'from-orange-500 to-red-500',
       skills: [
-        { name: 'Docker', level: 82, icon: 'devicon-docker-plain colored' },
-        { name: 'AWS', level: 78, icon: 'devicon-amazonwebservices-plain-wordmark colored' },
+
         { name: 'CI/CD', level: 85, icon: 'devicon-githubactions-plain colored' },
         { name: 'Git', level: 95, icon: 'devicon-git-plain colored' },
       ],
