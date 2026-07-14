@@ -10,7 +10,7 @@ export function ModernProjects() {
       image: '/honeydolls.png',
       tags: ['React Vite', 'Node.js', 'Expressjs', 'Supabase', 'Paymongo', 'TrackingMore', 'PostgreSQL'],
       gradient: 'from-blue-500 to-cyan-500',
-      stats: { users: '10K+', growth: '+45%' },
+      stats: { status: 'live', growth: '+45%' },
       liveUrl: 'https://honey-dolls-salon-frontend-xiz6.vercel.app',
       githubUrl: 'https://github.com',
     },
@@ -18,19 +18,9 @@ export function ModernProjects() {
       title: 'Marahuyo Hotel Booking System',
       description: 'A hotel management system that handles room bookings, guest check-ins/check-outs, room service requests, payment processing, and detailed financial reporting',
       image: '/marahuyo.jfif',
-      tags: ['TypeScript', 'React', 'Firebase', 'OpenAI'],
+      tags: ['Laravel', 'phpMySQL', 'PHP'],
       gradient: 'from-purple-500 to-pink-500',
-      stats: { users: '5K+', growth: '+120%' },
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
-    },
-    {
-      title: 'Analytics Dashboard',
-      description: 'Real-time business intelligence platform with interactive charts and customizable reports',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
-      tags: ['Next.js', 'Recharts', 'PostgreSQL', 'AWS'],
-      gradient: 'from-orange-500 to-red-500',
-      stats: { users: '8K+', growth: '+80%' },
+      stats: { status: 'ongoing', growth: '+120%' },
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com',
     },
@@ -39,7 +29,7 @@ export function ModernProjects() {
       title: 'FitSense',
       description: 'Comprehensive health and fitness tracking app with AI workout plans, real-time pose detection feedback, nutrition tracking, and progress analytics',
       image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
-      tags: ['React', 'Express', 'MongoDB', 'Charts.js'],
+      tags: ['React Native', 'Next.js', 'Supabase', 'Python', 'ML', 'TypeScript'],
       gradient: 'from-pink-500 to-rose-500',
       stats: { users: '12K+', growth: '+95%' },
       liveUrl: 'https://example.com',
@@ -157,7 +147,7 @@ export function ModernProjects() {
                   <div className="flex items-center gap-4 mb-4 text-sm">
                     <div className="flex items-center gap-1 text-gray-400">
                       <Star className="w-4 h-4 text-yellow-400" />
-                      <span>{project.stats.users}</span>
+                      <span>{project.stats.status}</span>
                     </div>
                     <div className="flex items-center gap-1 text-green-400">
                       <TrendingUp className="w-4 h-4" />
